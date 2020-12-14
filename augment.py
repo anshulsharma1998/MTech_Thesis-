@@ -12,7 +12,7 @@ class BasicPolicy(object):
         self.indices = list(product([0,1,2], repeat = 3)) if is_full_set_colors else list(permutations(range(3), 3))
         self.indices.insert(0, [0,1,2]) # R,G,B
         self.add_noise_peak = add_noise_peak
-
+        #vertical flip
         # Mirror and flip
         self.color_change_ratio = color_change_ratio
         self.mirror_ratio = mirror_ratio
