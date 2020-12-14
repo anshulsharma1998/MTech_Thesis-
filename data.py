@@ -50,7 +50,7 @@ class NYU_BasicAugmentRGBSequence(Sequence):
         self.maxDepth = 1000.0
 
         from sklearn.utils import shuffle
-        self.dataset = shuffle(self.dataset, random_state=0)
+        self.dataset = shuffle(self.dataset, random_state=0) #shuffle
 
         self.N = len(self.dataset)
 
