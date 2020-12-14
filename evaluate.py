@@ -3,7 +3,7 @@ import glob
 import time
 import argparse
 
-# Kerasa / TensorFlow
+# Kerasa / TensorFlow.
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '5'
 from keras.models import load_model
 from layers import BilinearUpSampling2D
