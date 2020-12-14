@@ -15,7 +15,7 @@ from skimage.transform import resize
 import matplotlib.pyplot as plt
 plasma = plt.get_cmap('plasma')
 
-# UI and OpenGL
+# UI and OpenGL.
 from PySide2 import QtCore, QtGui, QtWidgets, QtOpenGL
 from OpenGL import GL, GLU
 from OpenGL.arrays import vbo
