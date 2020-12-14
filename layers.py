@@ -12,7 +12,8 @@ def normalize_data_format(value):
                          '"channels_first", "channels_last". Received: ' +
                          str(value))
     return data_format
-    
+   
+    #upsample 
 
 class BilinearUpSampling2D(Layer):
     def __init__(self, size=(2, 2), data_format=None, **kwargs):
